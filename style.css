@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&family=Signika:wght@400;700&display=swap');
+
+
+h1,
+h4,
+.nav-link {
+    font-family: 'Signika', sans-serif;
+}
+
+body,
+h5,
+h6,
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px !important;
+    transition: ease-in 0.15s !important;
+}
+
+.nav-consul button {
+    background-color: teal !important;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(99, 99, 99) !important;
+}
+
+.nav-button {
+    /* background-color: orange !important; */
+    max-width: 60px;
+    padding: 0 !important;
+}
+
+
+.home-hero {
+    /* background-color: rgba(160, 160, 160, 0.185); */
+    min-height: 80vh;
+}
+
+.home-hero h1 {
+    font-size: 90px;
+    font-weight: 500;
+}
+
+.home-hero p {
+    font-size: 20px;
+}
+
+.home-hero img {
+    /* background-color: orange; */
+    max-height: 700px;
+    max-width: auto;
+}
+
+
+@media (max-width: 1199px) {
+    .home-hero h1 {
+        font-size: 60px;
+    }
+}
+
+
+
+/* .home-hero button {
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+} */
+
+.advantage-hero .card {
+    border: 1px solid rgba(128, 128, 128, 0.144);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.about-us img {
+    height: 500px;
+    max-width: 300px;
+}
+
+.sign-up {
+    background-color: teal;
+    color: white;
+}
+
+.team img {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+}
+
+.team .card {
+    border-radius: 10px;
+}
+
+.consultation img {
+    max-width: 500px;
+    height: 600px;
+}
+
+.pricing .card {
+    border: 1px solid rgba(128, 128, 128, 0.144);
+    /* border: none; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.footer {
+    background-color: rgb(65, 65, 65);
+    ;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer ul li a {
+    color: white;
+}
