@@ -22,7 +22,7 @@
  $(document).ready(function () {
      $("#basicPlanForm").submit(function (e) {
          e.preventDefault();
-         $("#basicPlanFormContent").html("<p>Thank you for your entry!</p>");
+         $("#basicPlanFormContent").html("<p>Thank you for contacting us! We will contact you as soon as possible.</p>");
      });
  });
 
@@ -30,7 +30,7 @@
  $(document).ready(function () {
      $("#personalPlanForm").submit(function (e) {
          e.preventDefault();
-         $("#personalPlanFormContent").html("<p>Thank you for your entry!</p>");
+         $("#personalPlanFormContent").html("<p>Thank you for contacting us! We will contact you as soon as possible.</p>");
      });
  });
 
@@ -38,7 +38,7 @@
  $(document).ready(function () {
      $("#personalPlusPlanForm").submit(function (e) {
          e.preventDefault();
-         $("#personalPlusPlanFormContent").html("<p>Thank you for your entry!</p>");
+         $("#personalPlusPlanFormContent").html("<p>Thank you for contacting us! We will contact you as soon as possible.</p>");
      });
  });
 

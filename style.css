@@ -57,6 +57,11 @@ button:hover {
     background-repeat: no-repeat; */
 }
 
+.home-hero a {
+    text-decoration: none;
+    color: white;
+}
+
 .home-hero h1 {
     font-size: 90px;
     font-weight: 500;
@@ -121,19 +126,15 @@ button:hover {
     max-width: 600px;
 }
 
+.signup input {
+    background-color: rgba(0, 128, 128, 0.062) !important;
+}
+
 .pricing .card {
     border: 1px solid rgba(128, 128, 128, 0.144);
     /* border: none; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
-
-
-
-.reviews img {
-    width: 75px;
-}
-
 
 
 
@@ -152,6 +153,28 @@ button:hover {
     color: white;
 }
 
+.footer ul li a:hover {
+    color: teal;
+}
+
+
+.modal button {
+    background-color: teal;
+}
+
+.modal label {
+    font-family: 'Raleway', sans-serif;
+}
+
+.modal input {
+    background-color: rgba(0, 128, 128, 0.062);
+}
+
+.modal .modal-header {
+    border: none;
+    margin: 0;
+    padding-bottom: 0;
+}
 
 
 @media (max-width: 992px) {
