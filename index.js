@@ -16,7 +16,7 @@
 
 
 
- //  Plans
+ //  Plans ----------------------------------------------------------
 
  // Handle basic plan form submission
  $(document).ready(function () {
@@ -41,3 +41,38 @@
          $("#personalPlusPlanFormContent").html("<p>Thank you for your entry!</p>");
      });
  });
+
+
+ //  submition ----------------------------------------------------
+ // Function to validate input and show modal
+
+
+ // Function to validate input and show modal
+ function validateAndSignUp() {
+     var nameInput = $("#name");
+     var emailInput = $("#email");
+     var name = nameInput.val();
+     var email = emailInput.val();
+
+     // Basic name validation
+     if (name.trim() === "") {
+         nameInput.addClass("is-invalid");
+         return;
+     }
+
+     // Basic email validation
+     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+     if (!emailRegex.test(email)) {
+         emailInput.addClass("is-invalid");
+         return;
+     }
+
+     // Clear validation status
+     nameInput.removeClass("is-invalid");
+     emailInput.removeClass("is-invalid");
+
+     // Your additional validation logic goes here
+
+     // If all validations pass, show the thank you modal
+     $("#thankYouModal").modal("show");
+ }
