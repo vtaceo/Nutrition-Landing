@@ -14,44 +14,9 @@
 </head>
 
 <body>
-
-    <!-- <nav class="navbar navbar-expand-lg " data-bs-theme="light">
-        <div class="container  navigation">
-            <a class="navbar-brand" href="#">NUTRITION LAB</a>
-            <button class="navbar-toggler nav-button" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#aboutus">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nutrition Programs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#consultation">Contacts</a>
-                    </li>
-                </ul>
-                <ul style="background-color: orange;" class="d-flex ms-auto my-1 nav-consul " role="search">
-                    <button class="" type="submit">Consultation</button>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
-
-
     <nav class="navbar navbar-expand-lg " data-bs-theme="light">
         <div class="container navigation pt-3 ">
-            <a class="navbar-brand" href="#">NUTRITION LAB</a>
+            <a class="navbar-brand" href="index.html">NUTRITION LAB</a>
             <button class="navbar-toggler nav-button" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -102,8 +67,9 @@
                     <div class="pt-3">
                         <button style="background-color: teal; color: white;" data-toggle="modal"
                             data-target="#entryModal">Consultation</button>
-                        <button style="background-color: rgb(63, 63, 63); color: white;">
-                            <a href="#aboutus">About Us</a></button>
+                        <button style="background-color: rgb(63, 63, 63); color: white;"
+                            onclick="window.location.href='#aboutus';">
+                            <a>About Us</a></button>
                     </div>
                 </div>
                 <div
@@ -117,7 +83,7 @@
     <!-- advantages -->
     <div class="container advantage-hero pb-5  py-5" id="#advantages">
         <h1 class="py-4 text-center fw-bold lh-1 mb-3">Our Advantages</h1>
-        <div class="advantages">
+        <div class="advantages pb-5">
             <div class="row row-cols-1 row-cols-md-3">
                 <div class="col mb-3 mb-sm-0 pb-2">
                     <div class="card h-100">
@@ -155,7 +121,7 @@
 
 
     <!-- about us -->
-    <div class="container col-xxl py-5 about-us" id="aboutus">
+    <div class="container col-xxl pb-5 about-us" id="aboutus">
         <div class="row flex-lg-row-reverse align-items-center py-5">
             <div class="col-10 col-sm-8 col-lg-6 text-center">
                 <img src="img/about3.png" class="d-none d-lg-block d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
@@ -176,9 +142,6 @@
                     will be given all the necessary information and access to your personal account on out platform to
                     track your progress.
                 </p>
-                <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start pt-4">
-                    <button style="background-color: teal; color: white;">More</button>
-                </div> -->
             </div>
         </div>
     </div>
@@ -260,7 +223,7 @@
         <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-4 py-4 text-center">
             <div class="col ">
                 <div class="card h-100">
-                    <img src="one.jpg" class="card-img-top" alt="...">
+                    <img src="img/one.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4>Cara Mendoza</h4>
                         <h6>Nutritionist</h6>
@@ -269,7 +232,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="two.jpg" class="card-img-top" alt="...">
+                    <img src="img/two.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4>Nellie Schroeder</h4>
                         <h6>Psychologist</h6>
@@ -278,7 +241,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="three.jpg" class="card-img-top" alt="...">
+                    <img src="img/three.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4>Monica Stafford</h4>
                         <h6>Nutritionist</h6>
@@ -287,7 +250,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="four.jpg" class="card-img-top" alt="...">
+                    <img src="img/four.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4>Ivan Merritt</h4>
                         <h6>Fitness Trainer</h6>
@@ -307,17 +270,6 @@
             <!-- First Card -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                    <!-- <div class="row d-flex justify-content-between"> -->
-                    <!-- <div class="col-3 px-4 pt-3" style="width: 25%;">
-                            <img src="img/review3.jpg" class="card-img-top" alt="Customer 1">
-                        </div> -->
-                    <!-- <div class="cust-review col pt-3 ">
-                            <h3>Adrian S.</h3>
-                            <p style=" margin: 0;">Program Plan: Basic</p>
-                            <p style=" margin: 0;">⭐️⭐️⭐️⭐️⭐️</p>
-                        </div> -->
-                    <!-- </div> -->
-
                     <div class="card-body">
                         <div class="cust-review   ">
                             <h4>Adrian S.</h4>
@@ -338,8 +290,6 @@
             <!-- Second Card -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-
-
                     <div class="card-body">
                         <div class="cust-review ">
                             <h4>Sarah M.</h4>
@@ -360,7 +310,6 @@
             <!-- Third Card -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-
                     <div class="card-body">
                         <div class="">
                             <h4>Emily R.</h4>
@@ -386,32 +335,11 @@
     <!-- consultation form-->
     <div class="signup container col pb-2 pt-3" id="consultation" c>
         <div class="row align-items-center  pb-5">
-            <!-- <div class="col-lg-6 text-center text-lg-start d-none d-lg-block">
-                <img src="img/consultation2.png" alt="" class=" text-center py-5 "">
-            </div> -->
-
             <div class=" col-md-6 hide-on-sm d-none d-lg-block">
                 <img src="img/consultation2.png" alt="Image" class="img-fluid">
             </div>
             <div class=" col-md-10 mx-auto col-lg-6 py-5 col-sm-12">
                 <h1>Sign up for a consultation</h1>
-                <!-- <form class="py-4  b rounded-3 ">
-                    <p>Fill in all the fields below with your details. Our administrator will
-                        contact you as soon as
-                        possible.</p>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
-                        <label for="floatingName">Your Name</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
-                    </div>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#thankYouModal"
-                        style="background-color: teal; color: white;">
-                        Sign Up
-                    </button>
-                </form> -->
                 <form id="signUpForm">
                     <p>Fill in all the fields below with your details. Our administrator will
                         contact you as soon as
@@ -442,7 +370,6 @@
 
 
     <!-- footer -->
-
     <div class="footer">
         <div class="container">
             <footer class="row pt-5 pb-3 text-white ">
@@ -452,7 +379,6 @@
                     </a>
                     <p class="fw-semibold">&copy; 2022</p>
                 </div>
-
                 <div class="col mb-3 col-md-6 col-sm-8 footerlinks">
                     <ul class="nav d-flex justify-content-between align-content-end">
                         <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 ">Home</a></li>
@@ -460,30 +386,9 @@
                         <li class="nav-item mb-2"><a href="#nutritionplans" class="nav-link p-0 ">Nutrition Plans</a>
                         </li>
                         <li class="nav-item mb-2"><a href="#reviews" class="nav-link p-0 ">Reviews</a></li>
-                        <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0">Contact</a></li>
+                        <li class="nav-item mb-2"><a href="#consultation" class="nav-link p-0">Contact</a></li>
                     </ul>
                 </div>
-
-                <!-- <div class="col mb-3">
-                    <h6>Section</h6>
-                    <ul class="nav flex-column">
-                        <li>Subscribe to the newsletter</li>
-                        <br>
-                        <li>Enter your email in the form below to receive news from us.</li>
-                        <li class="nav-item mb-2 pt-3">
-                            <div class="row">
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Email" aria-label="Email">
-                                </div>
-                                <div class="col">
-                                    <button type="submit" data-toggle="modal" data-target="#thankYouModal">Sign
-                                        Up</button>
-                                </div>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div> -->
             </footer>
         </div>
     </div>
@@ -501,7 +406,7 @@
 
     <!-- -------------------- MODALS ----------------------------- -->
     <!-- Thank You Modal 2222-->
-    <div class="modal" id="thankYouModal2" tabindex="-1" role="dialog" aria-labelledby="thankYouModalLabel"
+    <!-- <div class="modal" id="thankYouModal2" tabindex="-1" role="dialog" aria-labelledby="thankYouModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -516,11 +421,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Button trigger modal -->
-    <!-- <button type=" button" class="btn btn-primary" data-toggle="modal" data-target="#entryModal">
-                        Open Form
-                    </button> -->
+    </div> -->
 
     <!-- Entry Form Modal / NAV BAR CONSULTATION BUTTON -->
     <div class="modal" id="entryModal" tabindex="-1" role="dialog" aria-labelledby="entryModalLabel" aria-hidden="true">
@@ -528,10 +429,6 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="entryModalLabel">Register for your consultation.</h5>
-
-                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button> -->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" data-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
@@ -568,7 +465,7 @@
                 </div>
                 <div class="modal-body" id="basicPlanFormContent">
                     <!-- Basic Plan Form -->
-                    <p>We will contact you as soon as possible to answer your questions and available consultation
+                    <p>We will contact you as soon as possible to answer your questions and with available consultation
                         dates.</p>
                     <form id="basicPlanForm">
                         <div class="form-group">
@@ -597,7 +494,7 @@
                         aria-label="Close"></button>
                 </div>
                 <div class="modal-body" id="personalPlanFormContent">
-                    <p>We will contact you as soon as possible to answer your questions and available consultation
+                    <p>We will contact you as soon as possible to answer your questions and with available consultation
                         dates.</p>
                     <!-- Personal Plan Form -->
                     <form id="personalPlanForm">
@@ -628,7 +525,7 @@
                 </div>
                 <div class="modal-body" id="personalPlusPlanFormContent">
                     <!-- Personal+ Plan Form -->
-                    <p>We will contact you as soon as possible to answer your questions and available consultation
+                    <p>We will contact you as soon as possible to answer your questions and with available consultation
                         dates.</p>
                     <form id="personalPlusPlanForm">
                         <div class="form-group">
@@ -657,7 +554,7 @@
                         aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>We will contact you as soon as possible to answer your questions and available consultation
+                    <p>We will contact you as soon as possible to answer your questions and with available consultation
                         dates.</p>
                 </div>
             </div>
